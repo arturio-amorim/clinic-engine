@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "entry": "dist/mcp-http.js",
+  "env": {
+    "required": ["CLINIC_ENGINE_HTTP_TOKEN"],
+    "optional": ["GOOGLE_CALENDAR_ID", "GOOGLE_CALENDAR_ACCESS_TOKEN"]
+  },
+  "image": {
+    "baseImage": "node:22-slim",
+    "port": 3000
+  },
+  "healthcheck": {
+    "expect": "alive"
+  }
+}

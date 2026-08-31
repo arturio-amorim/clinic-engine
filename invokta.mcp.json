@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "clinic-engine",
+  "version": "0.1.0",
+  "title": "Clinic Engine",
+  "description": "MCP access to the Clínica Horizonte appointment Action Engine.",
+  "capabilityIds": [
+    "appointments.list-valid-slots",
+    "appointments.schedule",
+    "appointments.reschedule",
+    "appointments.cancel"
+  ],
+  "server": {
+    "name": "clinic-engine",
+    "entrypoint": "dist/mcp-stdio.js",
+    "forwardEnv": []
+  }
+}
