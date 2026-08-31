@@ -1,4 +1,4 @@
-import { defineConnector, EngineError } from "@invokta/core";
+import { defineConnector, EngineError } from "@senda/core";
 import { z } from "zod";
 
 import type { Appointment, AppointmentType } from "../domain/types.js";

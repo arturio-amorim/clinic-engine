@@ -1,4 +1,4 @@
-import { createEngine, type Principal } from "@invokta/core";
+import { createEngine, type Principal } from "@senda/core";
 
 import type { ClinicDependencies } from "./application/ports.js";
 import { createCancel } from "./capabilities/cancel.js";

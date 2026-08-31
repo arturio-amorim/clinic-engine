@@ -76,7 +76,7 @@ npm run mcp:stdio
 npm run mcp:install
 ```
 
-Depois o Cursor, Claude Code ou outro cliente MCP local vê as quatro tools. `mcp:uninstall` remove o engine dos clientes gerenciados pelo Invokta.
+Depois o Cursor, Claude Code ou outro cliente MCP local vê as quatro tools. `mcp:uninstall` remove o engine dos clientes gerenciados pelo Senda.
 
 ## MCP HTTP
 
@@ -97,7 +97,7 @@ O endpoint é `POST http://127.0.0.1:3000/mcp`. Sem `Authorization: Bearer <toke
 npm run devtools
 ```
 
-Abre o inspector do Invokta (em geral em http://localhost:4100/). Dá para chamar a mesma capability por direct, CLI, MCP stdio ou MCP HTTP e comparar o resultado.
+Abre o inspector do Senda (em geral em http://localhost:4100/). Dá para chamar a mesma capability por direct, CLI, MCP stdio ou MCP HTTP e comparar o resultado.
 
 ## Como a fronteira funciona
 
