@@ -140,10 +140,6 @@ src/mcp-http.ts       MCP Streamable HTTP
 test/                 provas pela fronteira engine.invoke
 ```
 
-## Próximos nichos
-
-Este repo é o primeiro de uma série. O mesmo padrão serve para reembolso de e-commerce, proposta comercial, triagem de candidatos, etc.: um engine por domínio, várias tomadas, uma política.
-
 ## Licença
 
 MIT
